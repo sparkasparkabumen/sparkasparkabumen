@@ -9,7 +9,6 @@
 }
 
 *{
-   font-family: 'Rubik', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
@@ -62,6 +61,7 @@ section{
    color:var(--white);
    font-size: 1.8rem;
    padding:1rem 3rem;
+   font-family: 'Rubik', sans-serif;
 }
 
 .btn:hover{
@@ -87,6 +87,7 @@ section{
    top:0; left:0; right:0;
    z-index: 1000;
    background-color: var(--light-bg);
+   font-family: 'Rubik', sans-serif;
 }
 
 .header .flex{
@@ -132,6 +133,7 @@ section{
 .home .row .content{
    flex:1 1 40rem;
    text-align: center;
+   font-family: 'Rubik', sans-serif;
 }
 
 .home .row .image{
@@ -168,6 +170,7 @@ section{
    align-items: center;
    justify-content: center;
    gap:2.5rem;
+   font-family: 'Rubik', sans-serif;
 }
 
 .count .box-container .box i{
@@ -191,6 +194,7 @@ section{
    align-items: center;
    gap: 1.5rem;
    flex-wrap: wrap;
+   font-family: 'Rubik', sans-serif;
 }
 
 .about .row .image{
@@ -216,6 +220,10 @@ section{
    line-height: 2;
    font-size: 1.6rem;
    color:var(--light-white);
+}
+
+.courses{
+   font-family: 'Rubik', sans-serif;
 }
 
 .courses .slide{
@@ -250,6 +258,10 @@ section{
  
 .swiper-pagination-bullet-active{
    background-color: var(--green);
+}
+
+.teachers{
+   font-family: 'Rubik', sans-serif;
 }
 
 .teachers .slide{
@@ -300,6 +312,10 @@ section{
    color:var(--white);
 }
 
+.reviews{
+   font-family: 'Rubik', sans-serif;
+}
+
 .reviews-slider .slide{
    border-radius: .5rem;
    background-color: var(--light-bg);
@@ -339,6 +355,10 @@ section{
    color:var(--green);
 }
 
+.contact .heading{
+   font-family: 'Rubik', sans-serif;
+}
+
 .contact .row{
    display: flex;
    align-items: center;
@@ -347,12 +367,12 @@ section{
 }
 
 .contact .row .account{
-   font: bold 28px 'Rubik', sans-serif;
    text-align: center;
-   max-width: 10%;
+   max-width: 96%;
 }
 
 .contact .row .account #link{
+   font: bold 28px 'Rubik', sans-serif;
    padding: 30px 0;
    background-color: #4b4b4b;
    margin-bottom: 20px;
@@ -369,7 +389,6 @@ section{
    float: right;
    font-weight: bold;
    font-size: 22px;
-   font-family: unset !important;
 }
 
 .contact .row .account #link:hover{
@@ -463,6 +482,7 @@ section{
 .footer{
    background-color: var(--light-bg);
    text-align: center;
+   font-family: 'Rubik', sans-serif;
    /* padding-bottom: 7rem; */
 }
 
