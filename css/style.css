@@ -227,7 +227,7 @@ section{
 .about .row .content .features{
    display: flex;
    flex-direction: column;
-   font-size: 22px;
+   font-size: 20px;
    color: #fff;
    margin-top: 20px;
 }
