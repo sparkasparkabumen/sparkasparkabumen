@@ -392,7 +392,7 @@ section{
    max-width: 96%;
 }
 
-.contact .row .account #link{
+.contact .row .account .link{
    font: bold 28px 'Rubik', sans-serif;
    padding: 30px 0;
    background-color: #4b4b4b;
@@ -412,11 +412,11 @@ section{
    font-size: 22px;
 }
 
-.contact .row .account #link:hover{
+.contact .row .account .link:hover{
    background-color: #5c5b5b;
 }
 
-.contact .row .account #link:active{
+.contact .row .account .link:active{
    background-color: #383838;
 }
 
