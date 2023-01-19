@@ -1,5 +1,5 @@
-let body = document.body
-let images = document.getElementsByTagName('img')
+let body = document.body;
+let images = document.getElementsByTagName('img');
 let menuBtn = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .flex .navbar');
 
@@ -37,6 +37,10 @@ var swiper = new Swiper(".course-slider", {
      el: ".swiper-pagination",
      clickable: true,
    },
+   autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
    breakpoints: {
       540: {
         slidesPerView: 1,
@@ -58,6 +62,10 @@ var swiper = new Swiper(".teachers-slider", {
      el: ".swiper-pagination",
      clickable: true,
    },
+   autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
    breakpoints: {
       540: {
         slidesPerView: 1,
@@ -79,6 +87,10 @@ var swiper = new Swiper(".reviews-slider", {
      el: ".swiper-pagination",
      clickable: true,
    },
+   autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
    breakpoints: {
       540: {
         slidesPerView: 1,
