@@ -10,6 +10,11 @@
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   
+   <!-- countdown -->
+   <!-- <link rel="stylesheet" href="https://www.bodybuilding.com/scripts/productPages.css"/>
+   <script type="text/javascript" src="https://www.bodybuilding.com/scripts/productPages.js"></script> -->
+   <script src="js/yscountdown.js"></script>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -87,8 +92,8 @@
       <div class="box">
          <i class="fas fa-chalkboard-user"></i>
          <div class="content">
-            <h3>5+</h3>
-            <p>Эксперттер</p>
+            <h3>80+</h3>
+            <p>сабақтар</p>
          </div>
       </div>
 
@@ -126,10 +131,35 @@
             <span>24/7 эксперттерге сұрақ қою мүмкіндігі</span>
             <span>Белсенді оқушыларға сыйақы</span>
          </div>
-         <a href="#contact" class="btn">Курсқа жазылу</a>
+         <h3 class="timeleft"></h3>
+         <p style="color: #ffffff; font-size: 20px; font-weight: bold;"><span class="price" style="text-decoration: line-through;">10 000 тг</span>
+          <span class="price" style="font-size: 35px; color: var(--green);">8 000 тг</span>
+         <br><a href="#contact" class="btn">Курсқа жазылу</a></p>
       </div>
 
    </div>
+
+   <script>
+      var myCountDown = new ysCountDown("2023/02/19", function (remaining, finished) {
+         if (finished) {
+         
+            document.getElementsByClassName('timeleft')[0].innerHTML = "Жеңілдік аяқталды";
+
+         } else {
+            let timeleft = document.getElementsByClassName('timeleft')[0];
+
+            let hours = remaining.hours;
+            let minutes = remaining.minutes;
+            let seconds = remaining.seconds;
+
+            timeleft.innerHTML = '20% жеңілдік аяқталуына:\n';
+            timeleft.innerHTML += hours < 10 ? `0${hours}:` : hours + ":";
+            timeleft.innerHTML += minutes < 10 ? `0${minutes}:` : minutes + ":";
+            timeleft.innerHTML += seconds < 10 ? `0${seconds}` : seconds;
+
+         }
+      });
+  </script>
 
 </section>
 
@@ -202,69 +232,69 @@
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            <img src="images/tutor-1.png" alt="">
+            <img src="images/tutors/1.jpg" alt="">
             <div class="share">
-<!--                <a href="#" class="fab fa-facebook-f"></a>
-               <a href="#" class="fab fa-twitter"></a> -->
-               <a href="https://www.instagram.com/bglllmw/" class="fab fa-instagram" target="_blank"></a>
-<!--                <a href="#" class="fab fa-linkedin"></a> -->
+               <!-- <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a> -->
             </div>
-            <h3>Гүлім</h3>
+            <h3>Нұрсұлу (МАТЕМАТИКА)</h3>
          </div>
          
          <div class="swiper-slide slide">
-            <img src="images/tutor-2.png" alt="">
+            <img src="images/tutors/2.jpg" alt="">
             <div class="share">
-<!--                <a href="#" class="fab fa-facebook-f"></a>
-               <a href="#" class="fab fa-twitter"></a> -->
-               <a href="https://www.instagram.com/nazgul_02_09/" class="fab fa-instagram" target="_blank"></a>
-<!--                <a href="#" class="fab fa-linkedin"></a> -->
+               <!-- <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a> -->
             </div>
-            <h3>Назгүл</h3>
+            <h3>Ержан (МАТЕМАТИКА)</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/tutor-3.png" alt="">
+            <img src="images/tutors/3.jpg" alt="">
             <div class="share">
-<!--                <a href="#" class="fab fa-facebook-f"></a>
-               <a href="#" class="fab fa-twitter"></a> -->
-               <a href="#" class="fab fa-instagram" target="_blank"></a>
-<!--                <a href="#" class="fab fa-linkedin"></a> -->
+               <!-- <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a> -->
             </div>
-            <h3>john deo</h3>
+            <h3>Аяулым (ХИМИЯ)</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/tutor-4.png" alt="">
+            <img src="images/tutors/4.jpg" alt="">
             <div class="share">
-<!--                <a href="#" class="fab fa-facebook-f"></a>
-               <a href="#" class="fab fa-twitter"></a> -->
-               <a href="#" class="fab fa-instagram" target="_blank"></a>
-<!--                <a href="#" class="fab fa-linkedin"></a> -->
+               <!-- <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a> -->
             </div>
-            <h3>john deo</h3>
+            <h3>Олжас (ИНФОРМАТИКА)</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/tutor-5.png" alt="">
+            <img src="images/tutors/5.jpg" alt="">
             <div class="share">
-<!--                <a href="#" class="fab fa-facebook-f"></a>
-               <a href="#" class="fab fa-twitter"></a> -->
-               <a href="#" class="fab fa-instagram" target="_blank"></a>
-<!--                <a href="#" class="fab fa-linkedin"></a> -->
+               <!-- <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a> -->
             </div>
-            <h3>john deo</h3>
+            <h3>Сезім (ШЕТ ТІЛІ)</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/tutor-6.png" alt="">
+            <img src="images/tutors/6.jpg" alt="">
             <div class="share">
-<!--                <a href="#" class="fab fa-facebook-f"></a>
-               <a href="#" class="fab fa-twitter"></a> -->
-               <a href="#" class="fab fa-instagram" target="_blank"></a>
-<!--                <a href="#" class="fab fa-linkedin"></a> -->
+               <!-- <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a> -->
             </div>
-            <h3>john deo</h3>
+            <h3>Алиасқар (ИНФОРМАТИКА)</h3>
          </div>
 
       </div>
@@ -339,7 +369,7 @@
          </div>
 
          <div class="swiper-slide slide">
-            <p>Қанша курсқа қатыстым бірақ Назгүл апай сияқты химияны ешкім түсіндіре алмады. Курсқа белсенді қатысқанымның арқасында пробныйлардан стабильно 40+ жинап жүрмін 😉</p>
+            <p>Қанша курсқа қатыстым бірақ Аяулым апай сияқты химияны ешкім түсіндіре алмады. Курсқа белсенді қатысқанымның арқасында пробныйлардан стабильно 40+ жинап жүрмін 😉</p>
             <div class="user">
                <img src="images/pic-4.jpg" alt="">
                <div class="user-info">
