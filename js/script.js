@@ -38,7 +38,7 @@ var swiper = new Swiper(".course-slider", {
      clickable: true,
    },
    autoplay: {
-    delay: 3000,
+    delay: 4000,
     disableOnInteraction: false,
   },
    breakpoints: {
@@ -63,7 +63,7 @@ var swiper = new Swiper(".teachers-slider", {
      clickable: true,
    },
    autoplay: {
-    delay: 3500,
+    delay: 4500,
     disableOnInteraction: false,
   },
    breakpoints: {
@@ -88,7 +88,7 @@ var swiper = new Swiper(".reviews-slider", {
      clickable: true,
    },
    autoplay: {
-    delay: 4000,
+    delay: 5500,
     disableOnInteraction: false,
   },
    breakpoints: {
