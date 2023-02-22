@@ -2,7 +2,7 @@ var interval;
 if (location.search && !isNaN(parseInt(location.search.substring(2, location.search.includes('&') ? location.search.indexOf('&') : location.search.length)))){
     for (let button of document.querySelectorAll('.btn')) button.href = 'https://t.me/ubtexpert_bot?start=' + location.search.substring(2, location.search.includes('&') ? location.search.indexOf('&') : location.search.length);
     document.querySelector('#price').innerHTML = '12 500 тг';
-    document.querySelector('#newprice').innerHTML = '10 000 тг';
+    document.querySelector('#new_price').innerHTML = '10 000 тг';
     for (let link of document.querySelectorAll('.link')){
         link.parentElement.href = '#home';
         link.parentElement.target = '';
